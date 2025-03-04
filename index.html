@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="chimp.png">
+    <title>Valorant ASCII Art</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        textarea {
+            width: 220px;
+            height: 220px;
+            padding: 10px;
+            font-size: 12px;
+            resize: none;
+        }
+        button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea1" readonly>
+▒▒▒▒▒▒▒▒▒▒▒▒▒█████████▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒███████████▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒██▀▀█████▀▀██▒▒
+▒▒▒▒▒▒▒▒▒▒█████▄███▄█████▒
+▒▒▒▒█▒▒▒▒▐██░░░█████░░░██▌
+▒▒▒▒█▒▒▒▒▐██■░░█████■░░██▌
+▒▒▒▒█▒▒▒▒▐███████████████▌
+▒▒████▌▒▒▐███████████████▌
+▒▐█████▒▒▐████▀▀▀▀▀▀▀████▌
+▒▐█████▒▒▐███▌■■■■■■■▐███▌
+▒▒████▌▒▒▒███▌■■■■■■■▐███▒
+▒▒▒█████▌▒▒███▄▄▄▄▄▄▄███▒▒
+▒▒▒▒██████▒▒███████████▒▒▒
+        </textarea>
+        <button onclick="copyText('textArea1')">Copy</button>
+    </div>
+
+    <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea2" readonly>
+▒▒▒▒▒▒▒▒▒▒▒▒▒█████████▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒███████████▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒█████████████▒▒
+▒▒▒▒▒▒▒▒▒▒██▄▄▄█████▄▄▄██▒
+▒▒▒▒█▒▒▒▒▐██░●░█████░●░██▌
+▒▒▒▒█▒▒▒▒▐██░░░█████░░░██▌
+▒▒▒▒█▒▒▒▒▐███████████████▌
+▒▒████▌▒▒▐██████▀▒▀██████▌
+▒▐█████▒▒▐███████████████▌
+▒▐█████▒▒▐███▀▀▀▀▀▀▀▀▀███▌
+▒▒████▌▒▒▒███████████████▒
+▒▒▒█████▌▒▒█████████████▒▒
+▒▒▒▒██████▒▒███████████▒▒▒
+        </textarea>
+        <button onclick="copyText('textArea2')">Copy</button>
+    </div>
+    <div class="container">
+        <h3>Copy ASCII </h3>
+        <textarea id="textArea3" readonly>
+──────────████████────────
+─────────██████████───────
+──MUTED───█▄▄▄████▄▄▄█────
+─────▄───█░░░░░██░░░░░█───
+─────█──░░░▓■▓░░░░▓■▓░░░──
+─────█──▐█░▓▓▓░██░▓▓▓░█▌──
+─────█──▐██░░░████░░░██▌──
+─────█──▐█▛██████████▛█▌──
+──▌▌▌▄▄──██▚████████▞██───
+──▌▌▌▀█──████▀████▀████───
+──▄▄▄██───████▄■■▄████────
+──▜███▛────██████████─────
+───███──────████████──────
+───███───────██████───────
+        </textarea>
+        <button onclick="copyText('textArea3')">Copy</button>
+    </div>  
+    
+    <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea4" readonly>
+░░░░░░░░░░░░░░░░██████░░░░
+░████░░░░░░░░░██▒▒▒▒▒▒███░
+█▒▒▒█░░░░░░░██▒▒▒▒▒▒▒▒▒▒▒█
+░█▒▒▒█░░░░██▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░█▒▒▒█░░██▒▒██▒▒▒▒██▒▒▒▒▒
+░░░█▒▒▒█░█▒▒▒████▒▒████▒▒▒
+░█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+█▒▒▒▒▒▒▒▒▒█▒▒▒▒▀▒▀▒▒▒▒▒▒▒▒
+░█▒▒▒█████▒▒█▒▒▒▒▒▒▒▒▒██▒▒
+█▒▒▒▒▒▒▒▒▒█▒███████████▒▒▒
+░█▒▒▒█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+░░█▒▒▒▒▒▒▒██▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░███████░░█▒▒▒▒▒▒▒▒▒███░
+        </textarea>
+        <button onclick="copyText('textArea4')">Copy</button>
+    </div>  <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea5" readonly>
+░░░░░░░░░░░░░░░░██████░░░░
+░░░███████░░░░██▒▒▒▒▒▒███░
+░░█▒▒▒▒▒▒▒█░██▒▒▒▒▒▒▒▒▒▒▒█
+░█▒▒▒█████▒█▒▒▒▒▒▒▒▒▒▒▒▒▒█
+█▒▒▒▒▒▒▒▒▒█▒▒██▒▒▒▒██▒▒▒▒▒
+░█▒▒▒█████▒▒▒████▒▒████▒▒▒
+█▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+░█████████▒▒▒▒▒▀▒▀▒▒▒▒▒▒▒▒
+░░░░█▒▒▒██▒▒███████████▒▒▒
+░░░█▒▒▒█░█▒▒█▒▒▒▒▒▒▒▒▒██▒▒
+░░█▒▒▒█░░░█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+░█▒▒▒█░░░░█▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░████░░░░░░█▒▒▒▒▒▒▒▒▒███░
+        </textarea>
+        <button onclick="copyText('textArea5')">Copy</button>
+    </div>  <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea6" readonly>
+▒▒▒▒▒▒▒▒▒▄▄▄▄▄▄▄▄▒▒▒▒▒▒▒▒▒
+▒▒▒▒▒▒▄█▀▀░░░░░░▀▀█▄▒▒▒▒▒▒
+▒▒▒▒▄█▀▄██▄░░░░░░░░▀█▄▒▒▒▒
+▒▒▒█▀░▀░░▄▀░░░░▄▀▀▀▀░▀█▒▒▒
+▒▒█▀░░░░███░░░░▄█▄░░░░▀█▒▒
+▒▒█░░░░░░▀░░░░░▀█▀░░░░░█▒▒
+▒▒█░░░░░░░░░░░░░░░░░░░░█▒▒
+▒▒█░░██▄░░▀▀▀▀▄▄░░░░░░░█▒▒
+▒▒▀█░█░█░░░▄▄▄▄▄░░░░░░█▀▒▒
+▒▒▒▀█▀░▀▀▀▀░▄▄▄▀░░░░▄█▀▒▒▒
+▒▒▒▒█░░░░░░▀█░░░░░▄█▀▒▒▒▒▒
+▒▒▒▒█▄░░░░░▀█▄▄▄█▀▀▒▒▒▒▒▒▒
+▒▒▒▒▒▀▀▀▀▀▀▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+        </textarea>
+        <button onclick="copyText('textArea6')">Copy</button>
+    </div>  <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea7" readonly>
+▒▒▒▒▒▒▒▄██████████▄▒▒▒▒▒▒▒
+▒▒▒▒▒▄██████████████▄▒▒▒▒▒
+▒▒▒▒██████████████████▒▒▒▒
+▒▒▒▐███▀▀▀▀▀██▀▀▀▀▀███▌▒▒▒
+▒▒▒███▒▒▌■▐▒▒▒▒▌■▐▒▒███▒▒▒
+▒▒▒▐██▄▒▀▀▀▒▒▒▒▀▀▀▒▄██▌▒▒▒
+▒▒▒▒▀████▒▄▄▒▒▄▄▒████▀▒▒▒▒
+▒▒▒▒▐███▒▒▒▀▒▒▀▒▒▒███▌▒▒▒▒
+▒▒▒▒███▒▒▒▒▒▒▒▒▒▒▒▒███▒▒▒▒
+▒▒▒▒▒██▒▒▀▀▀▀▀▀▀▀▒▒██▒▒▒▒▒
+▒▒▒▒▒▐██▄▒▒▒▒▒▒▒▒▄██▌▒▒▒▒▒
+▒▒▒▒▒▒▀████████████▀▒▒▒▒▒▒
+        </textarea>
+        <button onclick="copyText('textArea7')">Copy</button>
+    </div>   <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea8" readonly>
+    ▄██████████████▄▐█▄▄▄▄█▌  ██████▌▄▌▄▐▐▌███▌▀▀██▀▀   ████▄█▌▄▌▄▐▐▌▀███▄▄█▌     ▄▄▄▄▄██████████████
+    
+        </textarea>
+        <button onclick="copyText('textArea8')">Copy</button>
+    </div> 
+     <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea9" readonly>
+░░░░░░░░▄▄▀▀▀▀▀▀▄▄░░░░░░░░
+░░░░░░▄▀░░░░░░░░░░▀▄░░░░░░
+░░░░▄▀░░░░░░░░░░░░░░▀▄░░░░
+░░░▄░░░░░░░░░░░░░░░░░░▄░░░
+░░▄░░░▄▄░░░░░░░░░░▄▄░░░▄░░
+░░░░░▌░░█░░░░░░░░▐░░█░░░░░
+░░▌░░▀██▀░▄████▄░▒▀██░░▐░░
+░░░░░▒▒▒▒░█▄▄▄▄█░▒▒▒▒░░░░░
+░░▀░░▒▒░░░░░░░░░░▒▒▒░░▀░░░
+░░░▀▄░▒░░░░░░░░░░▒▒░▄▀░░░░
+░░░░░▀▄▒░░░░░░░░░▒░▄▀░░░░░
+░░░░░░░░▀▀▀▀▀▀▀▀▀▀░░░░░░░░
+        </textarea>
+        <button onclick="copyText('textArea9')">Copy</button>
+    </div>  <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea10" readonly>
+░░░░█░▀▄░░░░░░░░░░▄▄███▀░░
+░░░░█░░░▀▄░▄▄▄▄▄░▄▀░░░█▀░░
+░░░░░▀▄░░░▀░░░░░▀░░░▄▀░░░░
+░░░░░░░▌░▄▄░░░▄▄░▐▀▀░░░░░░
+░░░░░░▐░░█▄░░░▄█░░▌▄▄▀▀▀▀█
+░░░░░░▌▄▄▀▀░▄░▀▀▄▄▐░░░░░░█
+░░░▄▀▀▐▀▀░░░░░░░▀▀▌▄▄▄░░░█
+░░░█░░░▀▄░░░░░░░▄▀░░░░█▀▀▀
+        </textarea>
+        <button onclick="copyText('textArea10')">Copy</button>
+    </div>  <div class="container">
+        <h3>Copy ASCII Art</h3>
+        <textarea id="textArea11" readonly>
+────────────████████──────
+
+──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌
+───▄▄██▌█ BEEP BEEP-------------
+▄▄▄▌▐██▌█ -20 RR DELIVERY-------
+███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌
+▀(⊙)▀▀▀▀▀▀▀(⊙)(⊙)▀▀▀▀▀▀▀▀▀▀▀▀(⊙)
+        </textarea>
+        <button onclick="copyText('textArea11')">Copy</button>
+    </div>  
+
+   <div class="container">
+        <h3>GGWP</h3>
+        <textarea id="textArea12" readonly>
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█▀▀▀░█▀▀▀░█▐▌█░█▀█░░░░░░░░█░▀█░█░▀█░█▐▌█░█▀▀░░░░░░░░▀▀▀▀░▀▀▀▀░░▀▀░░▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+        </textarea>
+        <button onclick="copyText('textArea12')">Copy</button>
+    </div>  <div class="container">
+        <h3>NT</h3>
+        <textarea id="textArea13" readonly>
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█▄░█░▀█▀░░░░░░░░░░░░░░░░░░█░▀█░░█░░░░░░░░░░░░░░░░░░░▀░░▀░░▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+        </textarea>
+        <button onclick="copyText('textArea13')">Copy</button>
+    </div>  <div class="container">
+        <h3>I LUV U</h3>
+        <textarea id="textArea14" readonly>
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░▀█▀░░█░░░█░█░█░█░░█░█░░░░░░█░░░█░░░█░█░█░█░░█░█░░░░░▀▀▀░░▀▀▀░▀▀▀░░▀░░░▀▀▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+        </textarea>
+        <button onclick="copyText('textArea14')">Copy</button>
+    </div> <div class="container">
+        <h3>ACE STOLEN</h3>
+        <textarea id="textArea15" readonly>
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█▀█░█▀▀░█▀▀░░░░░░░░░░░░░░░█▄█░█░░░█▀▀░░░░░░░░░░░░░░░▀░▀░▀▀▀░▀▀▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█▀▀░▀█▀░█▀█░█░░░█▀▀░█▄░█░░▀▀█░░█░░█░█░█░░░█▀▀░█░▀█░░▀▀▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀░░▀░░░░░░░░░░░░░░░░░░░░░░░░░░░
+        </textarea>
+        <button onclick="copyText('textArea15')">Copy</button>
+    </div>  <div class="container">
+        <h3>YOU ALL CUTE</h3>
+        <textarea id="textArea16" readonly>
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█░█░░█▀█░█░░░█░░░░░░░░░░░░█░█░░█▄█░█░░░█░░░░░░░░░░░░▀▀▀░░▀░▀░▀▀▀░▀▀▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█▀▀░█░█░▀█▀░█▀▀░░░░░░░░░░░█░░░█░█░░█░░█▀▀░░░░░░░░░░░▀▀▀░▀▀▀░░▀░░▀▀▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+        </textarea>
+        <button onclick="copyText('textArea16')">Copy</button>
+    </div> 
+    <div class="container">
+        <h3>GOOD JOB</h3>
+        <textarea id="textArea17" readonly>
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█▀▀▀░█▀█░█▀█░█▀▄░░░░░░░░░░█░▀█░█░█░█░█░█░█░░░░░░░░░░▀▀▀▀░▀▀▀░▀▀▀░▀▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▀█▀░█▀█░█▀▄░░░░░░░░░░░░░░░░█░░█░█░█▀█░░░░░░░░░░░░░░░▀▀░░▀▀▀░▀▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+        </textarea>
+        <button onclick="copyText('textArea17')">Copy</button>
+    </div> 
+    
+    <div class="container">
+        <h3>HELLO TEAM</h3>
+        <textarea id="textArea18" readonly>
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█░█░█▀▀░█░░░█░░░█▀█░░░░░░░█▀█░█▀▀░█░░░█░░░█░█░░░░░░░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▀█▀░█▀▀░█▀█░█▄░▄█░░░░░░░░░░█░░█▀▀░█▄█░█░▀░█░░░░░░░░░░▀░░▀▀▀░▀░▀░▀░░░▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+        </textarea>
+        <button onclick="copyText('textArea18')">Copy</button>
+    </div> 
+
+
+    
+
+
+
+
+
+    <script>
+        function copyText(textAreaId) {
+            let textArea = document.getElementById(textAreaId);
+            textArea.select();
+            textArea.setSelectionRange(0, 99999); // For mobile devices
+            document.execCommand("copy");
+            // alert("ASCII Art copied!");
+        }
+    </script>
+
+</body>
+</html>
